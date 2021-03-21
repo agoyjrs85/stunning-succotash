@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const CLI = require("../lib/CLI").default
+const instance = new CLI(process.argv)
+
+instance.run()
